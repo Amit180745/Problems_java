@@ -12,7 +12,7 @@ public class Target_sum_pairs {
 			arr[i] = sc.nextInt();
 			i++;
 		}
-		PairSum(arr);
+		System.out.println();
 
 	}
 	public static void PairSum(int []arr) {
