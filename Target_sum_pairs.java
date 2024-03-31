@@ -13,6 +13,7 @@ public class Target_sum_pairs {
 			i++;
 		}
 		System.out.println();
+		PairSum(arr);
 
 	}
 	public static void PairSum(int []arr) {
