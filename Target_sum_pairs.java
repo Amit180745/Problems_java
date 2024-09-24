@@ -24,7 +24,7 @@ public class Target_sum_pairs {
 		while(i<j) {
 			int sum = arr[i] + arr[j];
 			if(sum == target) {
-				System.out.print(arr[i] + " and " + arr[j]);
+				System.out.println(arr[i] + " and " + arr[j]);
 			}
 			i++;
 			j--;
