@@ -16,7 +16,7 @@ public class Avgofpositive {
 		}
 		if(sum > 0) {
 			double avg = (double) sum/count;
-            DecimalFormat df = new DecimalFormat("#.00");
+            DecimalFormat df = new DecimalFormat("#.00");  // This line limits the output upto 2 decimal places.
             System.out.print("Average is: " + df.format(avg));
 //			System.out.println("Average is : " + avg);
 		}else {

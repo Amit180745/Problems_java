@@ -5,7 +5,7 @@ public class Equals_Check {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s1 = "hello";
-		String s2 = new String("hello");
+		String s2 = new String("hello1");
 		// System.out.println(s1.equals(s2));// java ka haio
 		System.out.println(equals(s1, s2));
 	}
